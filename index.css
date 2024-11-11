@@ -50,8 +50,33 @@ body{
     padding-left: 300px;
 }
 .dates{
-border: 31px solid white;
-border-radius: 20px;
+    align-items: center;
+justify-content: center;
+border: 11px solid white;
+border-radius: 10px;
+background-color: white;
+border-width: 30px;
+padding: 10px;
 
 
+
+}
+.dates input{
+   
+    align-items: center;
+    width: 100px;
+    border: 1px solid black;
+   
+    
+}
+.fonting{
+       font-size: 20px;
+       align-items: center;
+       justify-content: center;
+       color:white;
+       border: 10px solid darkblue;
+    background-color: darkblue;
+   border-radius: 20px;
+   width: 750px;
+   padding: 10px;
 }
