@@ -53,10 +53,14 @@ body{
     align-items: center;
 justify-content: center;
 border: 11px solid white;
-border-radius: 10px;
+border-radius: 15px;
+width: 50%;
+margin: 0 auto;
 background-color: white;
-border-width: 30px;
+
 padding: 10px;
+margin-bottom: 30px;
+
 
 
 
@@ -66,17 +70,19 @@ padding: 10px;
     align-items: center;
     width: 100px;
     border: 1px solid black;
-   
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+   border-radius: 10px;
     
 }
 .fonting{
-       font-size: 20px;
+      width: 50%;
+      margin: 0 auto;
        align-items: center;
        justify-content: center;
        color:white;
-       border: 10px solid darkblue;
+       border: 30px solid darkblue;
     background-color: darkblue;
    border-radius: 20px;
-   width: 750px;
-   padding: 10px;
-}
+  padding: auto;}
