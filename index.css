@@ -1,0 +1,57 @@
+
+
+
+body{
+ 
+    color:white;
+    
+   
+}
+.navbar{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+    
+    
+
+
+}
+.navbar h1{
+     color: blue;
+     padding-left:200px ;
+     
+}
+.navbar-menu{
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 20px;
+   color: black;
+   list-style: none;
+   gap: 50px;
+   padding-right: 400px;
+}
+.back-ground{
+     background-image: url("vlad.jpg");
+     background-size:cover ;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     height:600px
+   
+}
+.keywords{
+    font-size: 30px;
+      align-items: center;
+      justify-content: center;
+}
+.keywords h1{
+    padding-left: 300px;
+}
+.dates{
+border: 31px solid white;
+border-radius: 20px;
+
+
+}
