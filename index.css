@@ -158,13 +158,15 @@ cursor: pointer;
 .forming{
    align-items: center;
    justify-content: center;
-   border: 30px solid wheat;
+   border: 30px solid none;
    width:80%;
    margin:10px auto;
    border-bottom: 0cap;
-   padding-bottom: 40%;
-   color: wheat;
-   background-color: wheat;
-   border-radius: 30px;
-   margin-left: 380px;
+   padding-bottom: 30%;
+  
+   
+   background-image: url('pionner.avif');
+   background-size: contain;
+   border-radius: 10px;
+   margin-left: 480px;
 }
