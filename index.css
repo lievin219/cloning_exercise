@@ -159,10 +159,11 @@ cursor: pointer;
    align-items: center;
    justify-content: center;
    border: 30px solid none;
+   
    width:80%;
    margin:10px auto;
    border-bottom: 0cap;
-   padding-bottom: 30%;
+   padding-bottom: 40%;
   
    
    background-image: url('pionner.avif');
