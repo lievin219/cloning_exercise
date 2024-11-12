@@ -1,7 +1,7 @@
 .bodyi{
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 45px;
 }
 
 
@@ -116,6 +116,7 @@ margin-bottom: 30px;
   .navigating{
      color:black;
     display: flex;
+    gap: 20px;
     flex-direction: column;
      align-items: center;
      justify-content: center;
@@ -133,7 +134,7 @@ margin-bottom: 30px;
    .imaging{
      display: flex;
      flex-direction: row;
-     gap:45px;
+     gap:25px;
      margin-left: 300px;
    }
 
@@ -160,14 +161,34 @@ cursor: pointer;
    justify-content: center;
    border: 30px solid none;
    
-   width:80%;
+   width:100%;
    margin:10px auto;
-   border-bottom: 0cap;
-   padding-bottom: 40%;
+  
+   padding-bottom: 30%;
+   padding-left: 20%;
   
    
    background-image: url('pionner.avif');
    background-size: contain;
    border-radius: 10px;
-   margin-left: 480px;
+   margin-left: 200px;
+}
+.picturing{
+  display: flex;
+  flex-direction: row;
+  gap:35px;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.picturing div img{
+   
+  flex: 1 1 1 150px;
+  border: 2px solid white;
+  border-radius: 15px;
+  max-width: 150px;
+  height: auto;
+ ;
+  object-fit: cover;
+;
+  cursor: pointer;
 }
